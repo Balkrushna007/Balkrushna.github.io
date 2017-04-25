@@ -1,0 +1,1 @@
+create table Q1(id int primary key identity(1,1),Book_name nvarchar(100),Author nvarchar(100),Publisher nvarchar(100),Price float)

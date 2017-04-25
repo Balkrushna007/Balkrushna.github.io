@@ -1,0 +1,2 @@
+Create table Customer(Cust_id int primary key identity(1,1),FirstName nvarchar(100),LastName nvarchar(100),City nvarchar(100),Country nvarchar(100),Phone varchar(100))
+Create table OrderDetails(Order_id int primary key identity(1,1),OrderDate varchar(100),OrderNumber int,Total_Amount float,Cust_id int foreign key references Customer(Cust_id))
